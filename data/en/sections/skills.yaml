@@ -20,20 +20,40 @@ skills:
       summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
       url: "https://www.docker.com/"
 
+    - name: Virtualization
+      logo: /images/sections/skills/linux.png
+      summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+      url: "https://www.docker.com/"
+
+    - name: HashiCorp Packer
+      logo: /images/sections/skills/linux.png
+      summary: "Infrastructure as Code"
+      url: "https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac"
+
+    - name: HashiCorp Terraform
+      logo: /images/sections/skills/linux.png
+      summary: "Infrastructure as Code"
+      url: "https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac"
+
     - name: Cloud Computing
       logo: /images/sections/skills/cloud.png
       summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-
-    - name: Prometheus
-      logo: /images/sections/skills/prometheus.png
-      summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-      url: "https://prometheus.io/"
 
     - name: Git
       logo: /images/sections/skills/git.png
       summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
       url: "https://git-scm.com/"
 
-    - name: C++
+    - name: Storage Solutions
       logo: /images/sections/skills/c++.png
       summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+
+    - name: Hardware Expertise
+      logo: /images/sections/skills/linux.png
+      summary: "Infrastructure as Code"
+      url: "https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac"
+
+    - name: Networking Infrastructure
+      logo: /images/sections/skills/linux.png
+      summary: "Infrastructure as Code"
+      url: "https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac"

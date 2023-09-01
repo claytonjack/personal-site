@@ -91,11 +91,11 @@ params:
 
         # Enable and configure portfolio
         portfolio:
-            enable: false
+            enable: true
 
         # Enable and configure blog posts
         blog:
-            enable: false
+            enable: true
             # Share post on different social media
             shareButtons:
                 # facebook: true
@@ -182,7 +182,7 @@ params:
 
         # specify whether you want to show Table of Contents in reading page
         toc:
-            enable: false
+            enable: true
 
         # Show tags under the post title
         tags:
