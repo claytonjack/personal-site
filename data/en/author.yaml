@@ -3,16 +3,17 @@ name: "Jack Clayton"
 nickname: "Jack"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I'm"
-image: "images/author/john.png"
+image: "images/author/logo-black.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
-    email: "JackClayton1996@gmail.com"
-    phone: "+0123456789"
+    email: "claytojo@sheridancollege.ca"
+    phone: "+1000000000"
     github: claytonjack
     linkedin: claytonjack
 
 # some summary about what you do
 summary:
-    - I love servers
+    - I love DevOps
     - I work with Linux
     - I love open-source
+    - I work with Servers

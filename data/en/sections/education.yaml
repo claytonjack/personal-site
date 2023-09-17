@@ -15,37 +15,64 @@ degrees:
       timeframe: 2022-2025
       institution:
           name: Sheridan College
-          url: "https://www.sheridancollege.ca/en"
+          url: "https://www.sheridancollege.ca/"
       grade: #(optional)
           scale: CGPA
           achieved: 3.84
           outOf: 4
       takenCourses: #(optional)
           # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-          showGrades: true
-          collapseAfter: 4
+          showGrades: false
+          collapseAfter: 6
           courses:
-              - name: Data Structures and Algorithm
-                achieved: 3.75
-                outOf: 4
-              - name: Network Security
+              - name: Introduction to Data Communications and Networking
                 achieved: 3.80
                 outOf: 4
-              - name: Operating System
-                achieved: 3.5
-                outOf: 4
-              - name: Artificial Intelligent
-                achieved: 3.75
-                outOf: 4
-              - name: Data Structures and Algorithm
-                achieved: 3.75
-                outOf: 4
-              - name: Network Security
+              - name: Object Oriented Programming 1 - Java
                 achieved: 3.80
                 outOf: 4
-              - name: Operating System
-                achieved: 3.5
+              - name: Web Development
+                achieved: 3.80
                 outOf: 4
-              - name: Artificial Intelligent
-                achieved: 3.75
+              - name: Computer Math Fundamentals
+                achieved: 3.80
+                outOf: 4
+              - name: Art of Technical Communication
+                achieved: 3.80
+                outOf: 4
+              - name: Linux/UNIX-Operating Systems
+                achieved: 3.80
+                outOf: 4
+              - name: Cloud Enabled Networks
+                achieved: 3.80
+                outOf: 4
+              - name: Object Oriented Programming 2 - Java
+                achieved: 3.80
+                outOf: 4
+              - name: Web Programming
+                achieved: 3.80
+                outOf: 4
+              - name: Software Design Fundamentals
+                achieved: 3.80
+                outOf: 4
+              - name: Interactive User Interface Design
+                achieved: 3.80
+                outOf: 4
+              - name: Systems Administration Linux/UNIX
+                achieved: 3.80
+                outOf: 4
+              - name: Database Design & Implementation
+                achieved: 3.80
+                outOf: 4
+              - name: Computer & Network Security
+                achieved: 3.80
+                outOf: 4
+              - name: Enterprise Java Development
+                achieved: 3.80
+                outOf: 4
+              - name: Systems Dev. Methodologies
+                achieved: 3.80
+                outOf: 4
+              - name: Mobile Web-Based Application Development
+                achieved: 3.80
                 outOf: 4

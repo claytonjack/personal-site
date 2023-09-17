@@ -1,7 +1,7 @@
 baseURL: https://claytonjack.com
 
 languageCode: en-us
-title: "Jack's Portfolio"
+title: "Jack Clayton"
 
 # Use Hugo modules to add theme
 module:
@@ -61,14 +61,14 @@ params:
     # Provide logos for your site. The inverted logo will be used in the initial
     # transparent navbar and the main logo will be used in the non-transparent navbar.
     logo:
-        main: /images/site/main-logo.png
-        inverted: /images/site/inverted-logo.png
-        favicon: /images/site/favicon.png
+        main: /images/site/logo-black.png
+        inverted: /images/site/logo-white.png
+        favicon: /images/site/logo-black.png
 
     # GitHub repo of your site
-    gitRepo: https://github.com/claytonjack/personal-site
+    # gitRepo: https://github.com/
     # Default branch of your Git repo
-    gitBranch: main
+    # gitBranch: main
 
     # Configure the number of section title visible in the top navbar
     topNavbar:
@@ -81,7 +81,7 @@ params:
             enable: true
             services:
                 darkreader:
-                    defaultColorScheme: dark # options are 'system', 'dark', 'light'
+                    defaultColorScheme: system # options are 'system', 'dark', 'light'
                     fixes:
                         invert: ['img[src$=".svg"]'] # inverts svg colors.
                     theme:
@@ -118,7 +118,7 @@ params:
             enable: false
             services:
                 disqus:
-                    shortName: toha-example-site
+                #   shortName: toha-example-site
                 # valine:
                 #   appId: HTV6askWxVo3vOxlqjjaq2hd-MsYXbMMI
                 #   appKey: pVrT3C85KGIuk27t07eh6bUC
@@ -274,7 +274,7 @@ params:
         navigation:
             enable: true
             # show custom menus in the footer
-            customMenus: true
+            customMenus: false
         # Show/hide "Contact Me" section in the footer. Default is "true".
         contactMe:
             enable: true
