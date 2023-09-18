@@ -13,7 +13,7 @@ menu:
 
 ### Original Setup
 
-When I first started this hobby, I never imagined that my setup would expand to what it is now. Originally, I had a small, custom-made table that I used to house all of my hardware. Sure, it didn't look the best but it got the job done right? Well, not exactly. Any time I needed to access something for troubleshooting would end up being a huge hassle which would waste precious time.
+When I first started this hobby, I never imagined that my setup would expand to what it is now. Originally, I had a small, custom-made table that I used to house all of my hardware. Sure, it didn't look the best, but it got the job done, or so I thought. Anytime I needed to access something for troubleshooting, it would end up being a huge hassle, wasting precious time and sometimes causing unnecessary frustration.
 
 {{< img src="/posts/images/server-rack/original-setup.jpg" height="400" width="600" align="center" title="Original Server Room" >}}
 
@@ -27,4 +27,4 @@ I knew something had to be done, and this year I decided to take the next step a
 
 The number one priority that I have is to eventually transition from using a consumer-grade desktop chassis to a rackmount chassis. The other eventual replacement that I have is my desktop UPS. I have gotten used to the ease of maintenance that working with a server rack offers and would like to utilize it to its full potential. When it comes to a server chassis I have decided that either a 3u or 4 chassis would suit me best due to the increased expandability and airflow that they offer. My dream would be something from Supermicro mainly because they are more free from the proprietary parts you will find in the chassis offered by brands like Dell or HP. However, finding one of these chassis at a reasonable price has proven difficult which has led me to consider the [Rosewill RSV-L4412U](https://www.newegg.ca/rosewill-rsv-l4412u-black/p/N82E16811147330) instead.
 
-Image: Supermicro 4u and Rosewill 4u cases side by side
+{{< img src="/posts/images/server-rack/rosewill-case.jpg" height="400" width="600" align="center" title="Server Rack" >}}

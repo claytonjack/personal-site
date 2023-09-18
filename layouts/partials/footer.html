@@ -18,59 +18,112 @@
 			list-style: none;
 			padding: 0;
 			margin: 0;
+			text-align: center;
+			/* Center the links */
 		}
 
 		.footer-content .section ul li {
 			display: inline;
 			margin-right: 10px;
 		}
+
+		.footer-content .section .icons {
+			display: flex;
+			flex-wrap: wrap;
+			/* Allow icons to wrap */
+			justify-content: center;
+			/* Center the icons */
+		}
+
+		.footer-content .section .icons a {
+			display: flex;
+			align-items: center;
+			margin-right: 10px;
+			text-decoration: none;
+			height: 30px;
+			/* Adjust the height as needed */
+		}
+
+		.footer-content .section .icons a span {
+			margin-left: 5px;
+			/* Add spacing between icon and text */
+		}
+
+		@media (max-width: 768px) {
+			.footer-content {
+				flex-direction: column;
+			}
+
+			.footer-content .section ul {
+				text-align: center;
+				/* Center the navigation links on mobile */
+			}
+
+			.footer-content .section ul li {
+				display: inline;
+				margin-right: 10px;
+				margin-bottom: 5px;
+				/* Add some bottom margin for spacing */
+			}
+
+			.footer-content .section .icons {
+				display: flex;
+				justify-content: center;
+				/* Center the icons horizontally on mobile */
+			}
+
+			.footer-content .section .icons a {
+				margin-right: 10px;
+			}
+		}
 	</style>
+
 </head>
 
 <body>
 	<footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
-		<div class="container pt-3"> <!-- Adjust the padding as needed -->
+		<div class="container pt-3">
 			<div class="footer-content">
 				<div class="section">
 					<h5>Navigation</h5>
 					<ul>
 						<li class="nav-item">
-							<a class="smooth-scroll" href="https://claytonjack.com">Home</a>
+							<a class="smooth-scroll" href="https://jackclayton.com">Home</a>
 						</li>
 
 						<li class="nav-item">
-							<a class="smooth-scroll" href="https://claytonjack.com#about">About</a>
+							<a class="smooth-scroll" href="https://jackclayton.com#about">About</a>
 						</li>
 
 						<li class="nav-item">
-							<a class="smooth-scroll" href="https://claytonjack.com#skills">Skills</a>
+							<a class="smooth-scroll" href="https://jackclayton.com#skills">Skills</a>
 						</li>
 
 						<li class="nav-item">
-							<a class="smooth-scroll" href="https://claytonjack.com#education">Education</a>
+							<a class="smooth-scroll" href="https://jackclayton.com#education">Education</a>
 						</li>
 
 						<li class="nav-item">
-							<a class="smooth-scroll" href="https://claytonjack.com/posts">Posts</a>
+							<a class="smooth-scroll" href="https://jackclayton.com/posts">Posts</a>
 						</li>
 					</ul>
 				</div>
 
 				<div class="section">
 					<h5>Contact me:</h5>
-					<ul>
-						<li><a href=mailto:claytojo@sheridancollege.ca target="_blank" rel="noopener">
-								<span><i class="fas fa-envelope"></i></span> <span>claytojo@sheridancollege.ca</span>
-							</a></li>
+					<div class="icons">
+						<a href="mailto:claytojo@sheridancollege.ca" target="_blank" rel="noopener">
+							<span><i class="fas fa-envelope"></i></span><span>Email</span>
+						</a>
 
-						<li><a href=https://www.linkedin.com/in/claytonjack target="_blank" rel="noopener">
-								<span><i class="fab fa-linkedin"></i></span> <span>Jack Clayton</span>
-							</a></li>
+						<a href="https://www.linkedin.com/in/claytonjack" target="_blank" rel="noopener">
+							<span><i class="fab fa-linkedin"></i></span><span>LinkedIn</span>
+						</a>
 
-						<li><a href=https://github.com/claytonjack target="_blank" rel="noopener">
-								<span><i class="fab fa-github"></i></span> <span>claytonjack</span>
-							</a></li>
-					</ul>
+						<a href="https://github.com/claytonjack" target="_blank" rel="noopener">
+							<span><i class="fab fa-github"></i></span><span>GitHub</span>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -78,7 +131,7 @@
 		<hr />
 		<div class="container">
 			<div class="row text-center">
-				<div class="col-md-12">© 2023 Copyright.</div>
+				<div class="col-md-12">© Copyright 2023 Jack Clayton</div>
 			</div>
 		</div>
 	</footer>

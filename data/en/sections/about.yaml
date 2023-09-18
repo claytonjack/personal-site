@@ -40,7 +40,7 @@ socialLinks:
 # For example, you can put link for your resume.
 resourceLinks:
     - title: "Resume"
-      url: "files/resume.pdf"
+      url: "files/Jack_Clayton_Resume.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
@@ -54,12 +54,12 @@ badges:
     - type: soft-skill-indicator
       name: Adaptability
       percentage: 100
-      color: yellow
+      color: blue
 
     - type: soft-skill-indicator
       name: Communication
       percentage: 100
-      color: orange
+      color: blue
 
     - type: soft-skill-indicator
       name: Problem Solving
@@ -69,12 +69,12 @@ badges:
     - type: soft-skill-indicator
       name: Attention to Detail
       percentage: 100
-      color: yellow
+      color: blue
 
     - type: soft-skill-indicator
       name: Cultural Understanding
       percentage: 100
-      color: orange
+      color: blue
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
 #   name: Example 1

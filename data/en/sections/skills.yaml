@@ -25,7 +25,7 @@ skills:
       summary: "Adept with virtualization using hypervisors such as Proxmox for the creation and management of various virtual machines."
       url: "https://www.docker.com/"
 
-    - name: Infrastructure as Code (IaC)
+    - name: Infrastructure as Code
       logo: /images/sections/skills/iac.png
       summary: "Skilled in automating infrastructure provisioning, management, and deployment using tools like Docker Compose, HashiCorp Packer, and HashiCorp Terraform, ensuring efficient and consistent deployments."
       url: "https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac"

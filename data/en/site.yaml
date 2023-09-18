@@ -22,8 +22,8 @@ description: Personal portfolio and blog for Jack Clayton.
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Jacks's Blog
+  title: Jack Clayton
   type: website
-  description: Personal portfolio and blog for Jack Clayton.
+  description: Personal portfolio and blog.
   image: images/author/logo-white.png
-  url: https://claytonjack.com/
+  url: https://jackclayton.com/

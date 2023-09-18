@@ -15,7 +15,7 @@ menu:
 
 Until recently, Unraid had been my preferred operating system for my server. Unraid is renowned for its beginner-friendly approach and impressive WebUI, which made it an ideal fit for me when I was just getting started with Linux servers. However, a significant drawback I encountered was that it didn't allow for a deeper understanding of essential Linux concepts. It was simple enough to follow guides and get things up and running, but I felt that I was missing out on the opportunity to truly grasp how these elements functioned. Eventually, I migrated to using a focus-built hypervisor, utilizing Linux virtual machines for my services. Compared to an all-in-one solution, this approach gave me more freedom and helped further my knowledge of Linux and system administration.
 
-{{< img src="/posts/images/virtualization-server/setup-diagram.jpg" height="400" width="600" align="center" title="Setup-Diagram" >}}
+{{< img src="/posts/images/virtualization-server/vm-container.jpg" height="400" width="600" align="center" title="VMs vs. Containers" >}}
 
 ### Proxmox
 
